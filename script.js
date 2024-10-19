@@ -11,7 +11,7 @@ bton.addEventListener('click', (e) => {
             mensaje.appendChild(messenger);
             document.body.insertBefore(mensaje, pe);
         } else{
-            let messenger = document.createTextNode(`${arrNum[cont]} es par `);
+            let messenger = document.createTextNode(`${arrNum[cont]} es impar `);
             mensaje.appendChild(messenger);
             document.body.insertBefore(mensaje, pe);
         }
